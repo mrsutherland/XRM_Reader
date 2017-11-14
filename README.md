@@ -1,16 +1,16 @@
-This is an Maven project implementing an ImageJ 1.x plugin to load XRM files.
+This is an Maven project implementing an ImageJ 1.x plugin to load XRM, TXRM, and TXM files.
 
-The .xrm file extension is used by Zeiss Xradia on their X-ray microscopes.  This file format 
+These file extension are used by Zeiss Xradia on their X-ray microscopes.  This file format 
 uses Microsoft OLE2 to store images and metadata.  This plugin allows ImageJ to directly load
 the images.
 
-To Build:
+To Build from source:
 1) Load into eclipse for your favorite IDE as a maven project.
 2) Build jar
 
 To Install:
-1) Copy XRM_Reader-*.jar into ImageJ/plugins folder (or Fiji.app\plugins)
-2) Copy poi-3.7.jar into ImageJ/jre/lib/ext folder (or Fiji.app\java\win64\jdk1.8.0_66\jre\lib\ext)
+1) Copy XRM_Reader-*.jar and poi-3.7.jar into ImageJ/plugins folder (or Fiji.app\plugins)
+2) Restart ImageJ
 
 To Run:
-Go to File>Import>XRM... and select the xrm file you'd like to load.
+Go to File>Import>XRM... and select the xrm, txrm, or txm file you'd like to load.
