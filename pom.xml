@@ -12,9 +12,9 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.sutherland.michael</groupId>
+	<groupId>com.nullsquared</groupId>
 	<artifactId>XRM_Reader</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>XRM_Reader</name>
 	<description>A Maven project implementing an ImageJ 1.x plugin to read XRM files.</description>

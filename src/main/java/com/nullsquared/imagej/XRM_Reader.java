@@ -6,7 +6,7 @@
  *     http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package com.sutherland.michael.imagej;
+package com.nullsquared.imagej;
 
 import ij.IJ;
 import ij.ImagePlus;
