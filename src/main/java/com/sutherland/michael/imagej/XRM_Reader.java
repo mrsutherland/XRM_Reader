@@ -81,9 +81,9 @@ public class XRM_Reader implements PlugIn {
             type = stream.readInt();
             stream.close();
             // number of images
-            document = (DocumentEntry)imageInfo.getEntry("DataType");
+            document = (DocumentEntry)imageInfo.getEntry("NoOfImages");
             stream = new DocumentInputStream(document);
-            type = stream.readInt();
+            numberOfImages = stream.readInt();
             stream.close();
         } catch (IOException e) {
             IJ.error("Couldn't read parameter in XRM file: "+filename+" "+e.toString());
