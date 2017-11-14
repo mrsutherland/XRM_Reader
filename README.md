@@ -13,4 +13,4 @@ To Install:
 2) Restart ImageJ
 
 To Run:
-Go to File>Import>XRM... and select the xrm, txrm, or txm file you'd like to load.
+Go to File>Import>XRM/TXRM/TXM and select the xrm, txrm, or txm file you'd like to load.
